@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.7fr 4fr;
+   
+  }
+
+  .personaldetails
+  {   display: grid;
+      grid-template-columns: 3fr 2fr;
+      background-color: rgb(243, 246, 248);
+  }
+
+p
+{
+    font-size: 14px;
+}
+
+.contentImage
+{
+   display: flex;
+   flex-direction: row-reverse;  
+   height: 120px;
+}
+.header
+{
+    margin-right: 10px;
+    text-align:left;
+    color: darkblue;
+}
+
+.content
+{
+  background-color: rgba(184, 187, 189, 0); 
+}
+
